@@ -1,8 +1,13 @@
 import 'package:flutter/widgets.dart';
+import 'package:recase/recase.dart';
 
-class WidgetTest {
-  final String label;
-  final Widget child;
+abstract class WidgetTest extends StatelessWidget {
+  String get label => new ReCase(runtimeType.toString()).titleCase;
 
-  const WidgetTest(this.label, this.child);
+  Widget get testContent;
+
+  @override
+  Widget build(BuildContext context) {
+    return testContent;
+  }
 }

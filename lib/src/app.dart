@@ -7,7 +7,7 @@ import 'package:testbed/src/widget_test.dart';
 import '../test_bed.dart';
 
 class TestBedApp extends StatefulWidget {
-  final List<WidgetTest> Function() tests;
+  final List<WidgetTest> tests;
   final ThemeData theme;
   ShellBloc bloc = ShellBloc();
 
@@ -20,7 +20,7 @@ class TestBedApp extends StatefulWidget {
 class _TestBedAppState extends State<TestBedApp> {
   @override
   Widget build(BuildContext context) {
-    List<WidgetTest> tests = widget.tests();
+    List<WidgetTest> tests = widget.tests;
 
     return MaterialApp(
       title: 'Flutter Testbed',
@@ -58,8 +58,8 @@ class _TestBedAppState extends State<TestBedApp> {
                     var test = tests.firstWhere(
                         (element) => element.label == state.testLabel);
 
-                    if (test?.child != null) {
-                      return test.child;
+                    if (test != null) {
+                      return test;
                     }
 
                     return Center(
