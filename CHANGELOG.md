@@ -1,4 +1,8 @@
 
+## 0.0.3
+
+* Allow multiple child widgets to be displayed
+
 ## 0.0.2
 
 * Change `bloc` version to match `flutter_bloc` requirements.
