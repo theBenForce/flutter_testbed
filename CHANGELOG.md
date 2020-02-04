@@ -1,4 +1,9 @@
 
+## 0.0.4
+
+* Update dependencies
+* Add test filtering
+
 ## 0.0.3
 
 * Allow multiple child widgets to be displayed
