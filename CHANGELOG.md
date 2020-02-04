@@ -1,4 +1,8 @@
 
+## 0.0.5
+
+* Write a longer description
+
 ## 0.0.4
 
 * Update dependencies
