@@ -1,6 +1,6 @@
 name: testbed
 description: An application that enables fast development of widget libraries.
-version: 0.0.5
+version: 0.0.6
 homepage: https://github.com/theBenForce/flutter_testbed
 
 environment:

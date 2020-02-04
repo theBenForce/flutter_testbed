@@ -1,4 +1,8 @@
 
+## 0.0.6
+
+* Make layout responsive
+
 ## 0.0.5
 
 * Write a longer description
